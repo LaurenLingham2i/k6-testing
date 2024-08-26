@@ -1,6 +1,4 @@
-# k6 Load Testing
-
-This repository contains k6 scripts to perform load, spike, and soak tests on the JSONPlaceholder API.
+A very simple repository containing k6 scripts to perform load, soak, spike and stress tests on the JSONPlaceholder API
 
 ## Prerequisites
 
@@ -8,9 +6,6 @@ This repository contains k6 scripts to perform load, spike, and soak tests on th
 
 ## Running Tests
 
-1. **Load Test:**
-
    ```bash
    cd tests
-   k6 run load-test.js
-
+   k6 run <fileName, e.g. loadTest.js>
